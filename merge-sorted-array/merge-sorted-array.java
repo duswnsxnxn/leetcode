@@ -3,6 +3,7 @@ class Solution {
         
         int num1 = nums1.length;
         int cntZero = 0;
+        
         for (int i = num1 - 1; i >= 0; i--){
             if (nums1[i] != 0)
             {
